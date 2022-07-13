@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print, unnecessary_string_escapes
+
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -92,7 +94,7 @@ class LoginScreen extends StatelessWidget {
               ),
               Container(
                 width: double.infinity,
-                color: Color.fromARGB(255, 64, 101, 131),
+                color: const Color.fromARGB(255, 64, 101, 131),
                 child: MaterialButton(
                   child: const Text(
                     "Login",
