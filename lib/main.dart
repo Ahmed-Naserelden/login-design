@@ -1,6 +1,7 @@
 // ignore_for_file: unused_import
 import 'package:flutter/material.dart';
 import 'package:login_design/login_screen.dart';
+import 'package:login_design/user_screen.dart';
 import 'messenger_screen.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MessengerScreen(),
+      home: UserScreen(),
     );
   }
 }
